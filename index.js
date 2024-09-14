@@ -17,4 +17,11 @@ let ress = isOdd(9);
 console.log(res);  
 console.log(ress);  
 
+/* 3) Write a function named findMin that takes an array of numbers and returns the smallest number in the array.*/
+function findMin(arr) {
+    return Math.min(...arr);
+}
+const numbers = [5, 2, 9,0, 1, 7];
+const minNumber = findMin(numbers);
+console.log(minNumber);
 

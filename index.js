@@ -54,7 +54,6 @@ console.log(arr4_res);
 
 console.log("Answers to the questions 6");
 /*6) Write a function named lowercaseFirstLetter that takes a string and returns the same string with the first letter lowercased. */
-
 function lowercaseFirstLetter(str) {
     return str.charAt(0).toLowerCase() + str.slice(1);
 }
@@ -64,7 +63,6 @@ console.log(str1_res);
 
 console.log("Answers to the questions 7");
 /*7) Write a function named countVowels that takes a string and returns the number of vowels (a, e, i, o, u, A, E, I, O, U) in the string. It should filter vowels from the string. */
-
 function countVowels(str) {
     const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
     let count = 0;
@@ -83,7 +81,6 @@ console.log(str2_res);
 
 console.log("Answers to the questions 8");
 /*8) Write a function named findAverage that takes an array of numbers and returns the average of all elements. */
-
 function findAverage(arr) {
     const sum = arr.reduce((acc, num) => acc + num, 0);
     return sum / arr.length;

@@ -64,6 +64,23 @@ let arr6_res =findSum(arr6);
 console.log(arr5_res);  
 console.log(arr6_res);
 
+console.log("Answers to the questions 7");
+/*7) Write a function named findAverage that takes an array of numbers and returns the average of all the numbers in the array. */
+function findAverage(arr) {
+    if (arr.length === 0) {
+        return 0;
+    }
+    const sum = arr.reduce((acc, num) => acc + num, 0);
+    return sum / arr.length;
+}
+let arr7 = [1, 2, 3, 4, 5, 6]
+let arr7_res =findAverage(arr7);
+let arr8 = [10, 15, 20, 25, 30]
+let arr8_res =findAverage(arr8);
+let empty = findAverage([]);
+console.log(arr7_res);  
+console.log(arr8_res);
+console.log(empty);
 
 
 
